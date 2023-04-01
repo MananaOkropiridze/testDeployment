@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title> Registration Form </title>
+    </head>
+    <body style="background-color:rgba(105, 107, 101, 0.178);" align="center">
+        <h3>Student Registration form </h3>
+        <form action="" method="get" enctype="multipart/form-data">
+            <div> 
+                <label for="fName"> First Name: </label>  
+                <br> 
+                <input type="text" name="fName" id="fName"  size="30" required>
+            </div>
+        <br>
+        <div> 
+            <label for="lName"> Last Name </label>  
+            <br> 
+            <input type="text" name="lName" id="lName" size="30" required>
+        </div>
+        <br>
+        <div> 
+            <label for="faName"> Fathers Name </label>  
+            <br> 
+            <input type="text" name="faName" id="faName" size="30" required>
+        </div>
+        <div>
+            <p> Gender </p>
+            <label for="male"> Male </label>
+            <input type="radio" name="gender" value="1" id="male" required>
+            <label for="female"> Female</label>
+            <input type="radio" name="gender" value="2" id="female" required>
+        </div>
+        <br>
+        <div>
+            <label for="city"> City </label>
+            <br>
+            <select name="city" id="city" required>
+                <option value=""> Select </option>
+                <option value="Cheyenne">  Cheyenne </option>
+                <option value="Madison ">  Madison  </option>
+                <option value="Charleston">  Charleston </option>
+                <option value="Olympia">  Olympia </option>
+                <option value="Montpelier">  Montpelier </option>
+                <option value="SaltLakeCity">  Salt Lake City </option>
+                <option value="Austin">  Austin </option>
+                <option value="Nashville">  Nashville </option>
+            </select>  
+        </div>
+        <br>
+        <div>
+            <label for="course"> Course </label>
+            <br>
+            <select name="course" id="course" required>
+                <option value=""> Select </option>
+                <option value="Archaeology">  Archaeology </option>
+                <option value="Biology">  Biology  </option>
+                <option value="Chemistry">  Chemistry </option>
+                <option value="Economics">  Economics </option>
+                <option value="Geography">  Geography </option>
+                <option value="History">  History </option>
+                <option value="Mathematics">  Mathematics </option>
+                <option value="Physics">  Physics </option>
+            </select>  
+        </div>
+        <br> 
+        <div>
+            <label for="state"> State </label>
+            <br>
+            <select name="state" id="state" required>
+                <option value=""> Select </option>
+                <option value="Wyoming">  Wyoming </option>
+                <option value="Wisconsin">  Wisconsin  </option>
+                <option value="WestVirginia">  West Virginia </option>
+                <option value="Washington">  Washington </option>
+                <option value="Vermont">  Vermont </option>
+                <option value="Utah">  Utah </option>
+                <option value="Texas">  Texas </option>
+                <option value="Tennessee">  Tennessee </option>
+            </select>  
+        </div>
+        <br> 
+        <div>
+            <label for="district"> District </label>
+            <br>
+            <select name="district" id="district" required>
+                <option value=""> Select </option>
+                <option value="District1">  District1 </option>
+                <option value="District2">  District2  </option>
+                <option value="District3">  District3 </option>
+                <option value="District4">  District4 </option>
+                <option value="District5">  District5 </option>
+                <option value="District6">  District6 </option>
+                <option value="District7">  District7 </option>
+                <option value="District8">  District8 </option>
+            </select>  
+        </div>
+        <br> 
+        <div>
+            <label for="pin"> PinCode</label>
+            <br>
+            <input type="password"  name="pin" id="pin" size="30" required>
+        </div>
+        <br>
+        <div>
+            <label for="email"> student email:</label>
+            <br>
+            <input type="email"  name="email" id="email" size="30" required>
+        </div>
+    </form>
+    </body>
+</html>
